@@ -1,0 +1,10 @@
+print("MainLua")
+require("InitClass")
+require("ItemData")
+require("PlayerData")
+PlayerData:Init()
+
+require("MainPanel")
+require("BagPanel")
+require("ItemGrid")
+MainPanel:ShowPanel()
